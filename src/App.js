@@ -1,9 +1,13 @@
 import React from 'react';
-import ClassCounter from './Components/ClassCounter';
-import HookCounter from './Components/HookCounter';
+import ClassCounter from './useEffect/ClassCounter';
+import HookCounter from './useEffect/HookCounter';
 import HookCounterFour from './Components/HookCounterFour';
 import HookCounterThree from './Components/HookCounterThree';
 import HookCounterTwo from './Components/HookCounterTwo';
+import ClassMouse from './useEffect/ClassMouse';
+import HookMouse from './useEffect/HookMouse';
+import MouseContainer from './useEffect/MouseContainer';
+import DataFetching from './useEffect/DataFetching';
 
 class App extends React.Component{
   render(){
@@ -13,7 +17,13 @@ class App extends React.Component{
         <HookCounter/> 
         <HookCounterTwo/>
         <HookCounterThree/> */}
-        <HookCounterFour/>
+        {/* <HookCounterFour/>
+        <HookCounter/> */}
+        {/* <ClassCounter/> */}
+        {/* <ClassMouse/> */}
+        {/* <HookMouse/> */}
+        {/* <MouseContainer/> */}
+        <DataFetching/>
       </div>
     )
   }
