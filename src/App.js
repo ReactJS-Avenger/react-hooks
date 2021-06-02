@@ -8,6 +8,7 @@ import ClassMouse from './useEffect/ClassMouse';
 import HookMouse from './useEffect/HookMouse';
 import MouseContainer from './useEffect/MouseContainer';
 import DataFetching from './useEffect/DataFetching';
+import AppComponent from './userContext/AppComponent';
 
 class App extends React.Component{
   render(){
@@ -23,7 +24,8 @@ class App extends React.Component{
         {/* <ClassMouse/> */}
         {/* <HookMouse/> */}
         {/* <MouseContainer/> */}
-        <DataFetching/>
+        {/* <DataFetching/> */}
+        <AppComponent/>
       </div>
     )
   }
