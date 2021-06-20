@@ -10,6 +10,11 @@ import MouseContainer from './useEffect/MouseContainer';
 import DataFetching from './useEffect/DataFetching';
 import AppComponent from './userContext/AppComponent';
 import AppUseRef from './useRef/AppUseRef';
+import CounterOne from './useReducer/CounterOne';
+import CounterThree from './useReducer/CounterThree';
+import CounterContextandReducer from './useReducer/CounterContextandReducer';
+import DataFetchingUseState from './useReducer/DataFetchingUseState';
+import DataFetchingUseReduce from './useReducer/DataFetchingUseReduce';
 
 class App extends React.Component{
   render(){
@@ -27,7 +32,10 @@ class App extends React.Component{
         {/* <MouseContainer/> */}
         {/* <DataFetching/> */}
         {/* <AppComponent/> */}
-        <AppUseRef/>
+        {/* <AppUseRef/> */}
+        {/* <CounterContextandReducer/> */}
+        {/* <DataFetchingUseState/> */}
+        <DataFetchingUseReduce/>
       </div>
     )
   }
